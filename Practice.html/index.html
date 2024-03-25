@@ -5,35 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CheckPoint</title>
     <link rel="shortcut icon" href="Peter-Obi.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-  <h2>Welcome to Page</h2> 
-  <nav>
+ <header class="hd">
+  <h2 class="welc">Welcome to My Page</h2> 
+</header>
+  <nav class="nav">
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="About.html">About</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-      <li><a href="Resume.html">Resume</a></li>
-      <li><a href="Work.html">Work</a></li>
+      <li class="li"><a href="index.html">Home</a></li>
+      <li class="li"><a href="About.html">About</a></li>
+      <li class="li"><a href="Contact.html">Contact</a></li>
+      <li class="li"><a href="Resume.html">Resume</a></li>
+      <li class="li"><a href="Work.html">Work</a></li>
     </ul>
+  </nav>
+  <br>
+  <br>
+  <br> 
   <div>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Nobis non qui, velit quas aliquam dolor ipsa minima similique deleniti est doloribus aliquid <br> quod suscipit dignissimos sint, quo, tempore perspiciatis! Modi ea adipisci perspiciatis molestiae quos, <br> alias aut, aperiam suscipit sint vel quisquam excepturi! <br> Ullam nobis laborum cum molestias maiores hic distinctio mollitia quaerat. Vel natus provident laborum minima <br> facere nam hic totam ipsa reprehenderit cumque labore tempore, maiores laboriosam quo at culpa ipsam. <br> Ipsam eaque, vitae vel dolores tempore obcaecati veniam voluptatibus quaerat eligendi odit atque, <br> illo quos, autem molestias deserunt numquam? Quos sed est qui rerum illum, ratione vel!</p>
+    <p class="prg1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Nobis non qui, velit quas aliquam dolor ipsa minima similique deleniti est doloribus aliquid <br> quod suscipit dignissimos sint, quo, tempore perspiciatis! Modi ea adipisci perspiciatis molestiae quos, <br> alias aut, aperiam suscipit sint vel quisquam excepturi! <br> Ullam nobis laborum cum molestias maiores hic distinctio mollitia quaerat. Vel natus provident laborum minima <br> facere nam hic totam ipsa reprehenderit cumque labore tempore, maiores laboriosam quo at culpa ipsam. <br> Ipsam eaque, vitae vel dolores tempore obcaecati veniam voluptatibus quaerat eligendi odit atque, <br> illo quos, autem molestias deserunt numquam? Quos sed est qui rerum illum, ratione vel!</p>
   </div>
-  <img src="Peter-Obi.jpg" alt="Photo">
-  <img src="Daddy David Ogbueli.jpg" alt="Photo">
-  <audio src="Young-Jonn-Ft-Kizz-Daniel-and-Seyi-Vibez-Big-Big-Things-(TrendyBeatz.com).mp3" controls>Music</audio>
-  <video src="WhatsApp Video 2024-03-06 at 22.42.21_43e3fda9.mp4" controls>Video</video>
-  <video src="WhatsApp Video 2024-03-06 at 22.42.42_55d9ce03.mp4" controls>Video</video>
-    <form>
-<label for="About">About</label> <br>
-<input type="text"> <br>
-<label for="Contact">Contact</label> <br>
-  <input type="number"> <br>
-  <label for="Work">Work</label> <br>
-  <input type="text"> <br>
-  <label for="Resume">Resume</label> <br>
- <textarea name=
- ></textarea>
-    </form>
+
+  <div class="lp">
+  <img src="Peter-Obi.jpg" class="po" alt="Photo">
+  <p class="poname">Peter Obi</p>
+  <p class="poprg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Quia earum temporibus quis itaque rem? <br> Perferendis error dolores quae omnis neque exercitationem non, <br> sint, illo possimus rem obcaecati. Magnam, voluptas tempore!</p>
+  <img src="Daddy David Ogbueli.jpg" class="do" alt="Photo">
+  <p class="doname">David Ogbuefi</p>
+  <p class="doprg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Quia earum temporibus quis itaque rem? <br> Perferendis error dolores quae omnis neque exercitationem non, <br> sint, illo possimus rem obcaecati. Magnam, voluptas tempore!</p>
+</div>
+  <!-- <audio src="Young-Jonn-Ft-Kizz-Daniel-and-Seyi-Vibez-Big-Big-Things-(TrendyBeatz.com).mp3" controls>Music</audio> -->
+ 
+
+  <div class="container-fluid footer">
+    <div class="row">
+      <div class="col-lg-2">
+        <form>
+          <label for="About">About</label> <br>
+          <input type="text"> <br>
+          <label for="Contact">Contact</label> <br>
+            <input type="number"> <br>
+            <label for="Work">Work</label> <br>
+            <input type="text"> <br>
+            <label for="Resume">Resume</label> <br>
+          <textarea ></textarea>
+        </form>
+        <button>Submit</button>
+      </div>
+
+      <div class="col-lg-1"> 
+      </div>
+
+      <div class="col-lg-9 marq"> 
+        <marquee behavior="" direction="left">
+          <img src="Griffith-uni-logo-150x50.jpg" alt="">
+          <img src="illinois-state-university-logo.jpg" class="ftimg" alt="">
+          <img src="latrobe-logo-150x50.jpg" alt="">
+          <img src="Loughborough-University-logo.png" class="ftimg" alt="">
+          <img src="Mod education.jpg" class="ftimg" alt="">
+          <img src="Nottingham-Trent-University-logo.png" class="ftimg" alt="">
+          <img src="Swansea-University-logo-150x50.jpg" alt="">
+          <img src="The-University-of-New-Brunswick-logo-150x50.jpg" alt="">
+          <img src="the-university-of-nottingham-1-logo-png-transparent-copy2-150x50.png" alt="">
+        </marquee>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
